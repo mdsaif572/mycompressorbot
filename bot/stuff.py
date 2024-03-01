@@ -21,7 +21,7 @@ async def start(event):
         f"**Send me the video which you want to compress.**\n**Uptime: {str(datetime.now() - START_TIME).split('.')[0]}**",
         buttons=[
             [Button.inline("HELP", data="help")],
-            [Button.url('Update', url='t.me/cloud_)station9')],
+            [Button.url('Update', url='t.me/cloud_station9')],
             [Button.url('Support', url='t.me/csbot_ot')]
         ],
     )
